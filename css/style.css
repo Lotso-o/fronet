@@ -1,0 +1,110 @@
+
+body{
+ background-color: #beb8b8;
+}
+
+
+div {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+.header { background-color:rgb(3, 209, 245); 
+    color: rgb(255, 255, 255); 
+    font-size: 25px;
+
+}
+
+.nav { 
+    background-color: #fbff00; 
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+.main {
+    display: flex;
+    border: none;
+
+}
+
+.section {
+    flex: 3;
+    display: flex;
+    gap: 10px;  
+    background-color: white;
+}
+
+.noticia {
+    flex: 1;     
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+
+
+.article {
+    background-color:  #beb8b8;
+}
+
+
+
+.footer:hover{
+
+    transform: scale(1.03);
+    transition: 0.5s;
+}
+
+.footer span:hover{
+    color: rgb(0, 47, 255);
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: 0.5s;
+}
+
+.nav span:hover{
+    color: rgb(0, 47, 255);
+    cursor: pointer;
+}
+
+.nav span {
+    margin: 0 20px;
+}
+
+
+.n1 { background-color: rgb(3, 209, 245);}
+
+
+.n2 { 
+    background-color: rgb(44, 107, 224); 
+    background-size: cover;        
+    background-position: center;   
+    transition: 0.5s;  
+    height: 400px;           
+}
+
+.n2:hover {
+    background-image: url(https://imgs.search.brave.com/3ADVbmTEKUOYmDNQHQ2iWTWMcLwpSGV1LH8wYvgt5SQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZW5lcy5lbHBhaXMu/Y29tL3Jlc2l6ZXIv/djIvWkoyNzNUUUFR/NUdJNUNLQVlPWTdF/VDJUS1UuanBnP2F1/dGg9YzNlODU2Njkx/YmY0MmRhYWQ4MzQ0/NTk0OGZiYzRkNTA3/ODkzMGZhM2RkMjlj/YTc5MmIzNDI4NjA1/NGI5MmFjZCZ3aWR0/aD00MTQmaGVpZ2h0/PTIzMyZzbWFydD10/cnVl);
+    color: transparent; 
+}
+
+
+
+.n3 { background-color: rgb(3, 209, 245); }
+
+.aside1 { flex: 1; background-color: #ffffff;
+        font-size: 25px;
+
+
+}
+
+.aside2 { flex: 1; background-color: #ffffff;
+            font-size: 25px;
+
+
+}
